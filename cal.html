@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="cla.css">
+</head>
+<body>
+    <div id="calbox" >
+        <div id="id"><input id="display" readonly></div>
+        <div id="btnbox" >
+            <button onclick="cleardisplay()"class="opbutton">AC</button>
+            <button onclick="deletevalue()"class="opbutton">D</button>
+            <button onclick="appendtodispalyfuncion('%')"class="opbutton">%</button>
+            <button onclick="appendtodispalyfuncion('/')"class="opbutton">/</button>
+            <button onclick="appendtodispalyfuncion('7')">7</button>
+            <button onclick="appendtodispalyfuncion('8')">8</button>
+            <button onclick="appendtodispalyfuncion('9')">9</button>
+            <button onclick="appendtodispalyfuncion('*')" class="opbutton">x</button>
+            <button onclick="appendtodispalyfuncion('4')">4</button>
+            <button onclick="appendtodispalyfuncion('5')">5</button>
+            <button onclick="appendtodispalyfuncion('6')">6</button>
+            <button onclick="appendtodispalyfuncion('-')"class="opbutton">-</button>
+            <button onclick="appendtodispalyfuncion('1')">1</button>
+            <button onclick="appendtodispalyfuncion('2')">2</button>
+            <button onclick="appendtodispalyfuncion('3')">3</button>
+            <button onclick="appendtodispalyfuncion('+')"class="opbutton">+</button>
+            <button onclick="appendtodispalyfuncion('.')">.</button>
+            <button onclick="appendtodispalyfuncion('0')">0</button>
+            <button onclick="cleardisplay()"class="opbutton">C</button>
+            <button onclick="calculte()" class="equal">=</button>
+        </div>
+    </div>
+    <script src="cal.js"></script>
+</body>
+</html>
